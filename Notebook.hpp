@@ -13,7 +13,7 @@ namespace ariel {
     private:
         std::map<int, std::vector<char *>> pages;
     public:
-        bool write(int pageNum, int rowNum, int colNum, ariel::Direction direction, std::string& input);
+        bool write(int pageNum, int rowNum, int colNum, ariel::Direction direction, std::string input);
 
         std::string read(int pageNum, int rowNum, int colNum, ariel::Direction direction, int len);
 

@@ -5,7 +5,7 @@
 #include "Notebook.hpp"
 namespace ariel {
 
-    bool Notebook::write(int pageNum, int rowNum, int colNum, ariel::Direction direction, std::string& input) {
+    bool Notebook::write(int pageNum, int rowNum, int colNum, ariel::Direction direction, std::string input) {
         this->pages.emplace(1, std::vector<char*>());
         return true;
     }
